@@ -5,7 +5,7 @@ env/
 __pycache__/
 *.py[cod]
 *$py.class
-
+/backend/.env
 # VS Code settings
 .vscode/
 
@@ -58,3 +58,4 @@ desktop.ini
 # Git directory logs and metadata
 *.orig
 *.rej
+"backend/.env" 

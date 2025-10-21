@@ -1,0 +1,92 @@
+/* frontend/src/components/SourceCitation.css */
+.source-citation {
+  margin-bottom: 8px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #fafafa;
+}
+
+.source-header {
+  padding: 12px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background 0.2s;
+}
+
+.source-header:hover {
+  background: #f0f0f0;
+}
+
+.source-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex: 1;
+}
+
+.source-number {
+  background: #667eea;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+.source-title {
+  font-weight: 600;
+  color: #333;
+  flex: 1;
+}
+
+.source-relevance {
+  background: #10b981;
+  color: white;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.expand-icon {
+  color: #667eea;
+  font-size: 0.8rem;
+}
+
+.source-details {
+  padding: 16px;
+  background: white;
+  border-top: 1px solid #e0e0e0;
+}
+
+.source-type,
+.source-content,
+.source-metadata {
+  margin-bottom: 12px;
+}
+
+.source-type strong,
+.source-content strong,
+.source-metadata strong {
+  color: #667eea;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.source-content p {
+  padding: 8px;
+  background: #f8f9fa;
+  border-radius: 6px;
+  line-height: 1.5;
+}
+
+.source-metadata pre {
+  background: #f8f9fa;
+  padding: 12px;
+  border-radius: 6px;
+  overflow-x: auto;
+  font-size: 0.85rem;
+}

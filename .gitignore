@@ -1,0 +1,60 @@
+# Python virtual environment
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# VS Code settings
+.vscode/
+
+# Logs
+*.log
+*.out
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+*.pyd
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Dependencies
+/.eggs/
+/pip-wheel-metadata/
+
+# Vector store index files (large local data files)
+vector_store/
+*.faiss
+
+# Cache files
+.cache/
+.cache-tools/
+
+# Environment variables files (keep your keys secret)
+/.env
+.env.*
+
+# Jupyter Notebook checkpoints and outputs
+.ipynb_checkpoints/
+
+# Frontend build files
+/frontend/build/
+/frontend/node_modules/
+/frontend/.env.local
+/frontend/.env.development.local
+/frontend/.env.test.local
+/frontend/.env.production.local
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Git directory logs and metadata
+*.orig
+*.rej

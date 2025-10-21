@@ -1,0 +1,77 @@
+/* frontend/src/components/Statistics.css */
+.statistics-panel {
+  background: white;
+  border-radius: 15px;
+  padding: 25px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.stats-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #667eea;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.stat-card {
+  background: #f8f9fa;
+  padding: 16px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.stat-label {
+  font-size: 0.85rem;
+  color: #6b7280;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.stat-value {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #667eea;
+}
+
+.stat-status {
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.stat-status.online {
+  color: #10b981;
+  background: #d1fae5;
+}
+
+.stat-status.offline {
+  color: #f59e0b;
+  background: #fef3c7;
+}
+
+.stats-info {
+  background: #f8f9fa;
+  padding: 16px;
+  border-radius: 10px;
+  font-size: 0.9rem;
+}
+
+.stats-info p {
+  margin: 8px 0;
+  color: #4b5563;
+}
+
+.stats-info strong {
+  color: #667eea;
+}

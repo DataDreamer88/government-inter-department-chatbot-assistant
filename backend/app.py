@@ -7,7 +7,7 @@ import os
 
 # Initialize Flask app
 app = Flask(__name__)
-CORS(app)
+CORS(app, origins=["https://gov-chatbot-bfe73.web.app"])
 
 # Initialize RAG pipeline
 print("Initializing Samarth backend...")

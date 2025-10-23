@@ -60,4 +60,4 @@ desktop.ini
 *.orig
 *.rej
 "backend/.env" 
-/frontend/.env/
+backend/.env:2

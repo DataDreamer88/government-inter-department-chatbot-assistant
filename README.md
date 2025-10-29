@@ -73,31 +73,32 @@ A full-stack AI system for natural language Q&A on Indian agricultural and clima
 
 ### 1. Clone the Repo & Configure Environment
 
+```
 git clone https://github.com/your-user/project-samarth.git
 cd project-samarth/backend
 python -m venv venv
 source venv/Scripts/activate # (or source venv/bin/activate on Linux/Mac)
 pip install -r requirements.txt
-
+```
 - Create a `.env` file in `/backend` with:
+```
 DATA_GOV_API_KEY=your_data_gov_api_key
 GROQ_API_KEY=your_groq_api_key
-
-
+```
 ### 2. Start the Backend Server
-
+```
 python app.py
-
+```
 Server will run on http://127.0.0.1:5000
 
 
 ### 3. Launch the Frontend
-
+```
 cd ../frontend
 npm install
 Set API URL in .env: REACT_APP_API_URL=http://127.0.0.1:5000
 npm start
-
+```
 Visit [http://localhost:3000](http://localhost:3000).
 
 ### 4. Run in Production
@@ -132,4 +133,5 @@ See [LICENSE](LICENSE) for full details.
 - Groq, Google Cloud, Firebase
 
 ---
+
 

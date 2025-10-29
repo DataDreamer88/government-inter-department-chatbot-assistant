@@ -14,6 +14,7 @@ A full-stack AI system for natural language Q&A on Indian agricultural and clima
 
 Click the image below to watch the detailed explanation video for Project Samarth:
 [![Watch Explanation Video]](https://drive.google.com/file/d/14hQsatp06XE5e80OlS1NtmesGnResFG4/view?usp=sharing)
+<img width="1326" height="828" alt="image" src="https://drive.google.com/file/d/1eSW3cVVpNrRXKg4U-jyCDiXzDr1d7_hL/view?usp=sharing" />
 
 ## 🛠 Technologies & Skills Used
 
@@ -138,6 +139,7 @@ See [LICENSE](LICENSE) for full details.
 - Groq, Google Cloud, Firebase
 
 ---
+
 
 
 
